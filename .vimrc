@@ -27,3 +27,5 @@ let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#branch#enabled=1
 
+inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
+
