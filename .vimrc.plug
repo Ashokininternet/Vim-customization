@@ -7,10 +7,13 @@ Plug 'vim-scripts/c.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" Colorscheme (matches screenshot)
+" Colorscheme
 Plug 'morhetz/gruvbox'
 
 " Git branch in statusbar
 Plug 'tpope/vim-fugitive'
+
+" Autocomplete (C, JS, TS — all in one)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
