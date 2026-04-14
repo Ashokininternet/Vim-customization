@@ -1,29 +1,29 @@
 " Set to Vim only
 set nocompatible
-
-" Line numbers
 set number
-
-" Encoding
 set encoding=utf-8
-
-" Status bar always visible
 set laststatus=2
-
-" Wrap
 set wrap
 
-" Call plug file FIRST
+" Call plug file
 if filereadable(expand("~/_vimrc.plug"))
     source ~/_vimrc.plug
 endif
 
-" === THEME (must be AFTER plugins load) ===
-colorscheme gruvbox
+" ========================================
+" SETTINGS BELOW THIS LINE
+" ========================================
+
+" 1. Required for Gruvbox/Airline on Windows 10
+if (has("termguicolors"))
+    set termguicolors
+endif
+
+" 2. Appearance
 set background=dark
+colorscheme gruvbox
 
-" === AIRLINE ===
-let g:airline_theme='gruvbox'
-let g:airline_powerline_fonts=1
-let g:airline#extensions#branch#enabled=1
-
+" 3. Airline Configuration
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline_theme = 'gruvbox' " Set this LAST
