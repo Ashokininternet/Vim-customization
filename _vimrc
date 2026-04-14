@@ -14,8 +14,8 @@ set laststatus=2
 set wrap
 
 " Call plug file FIRST
-if filereadable(expand("~/.vimrc.plug"))
-    source ~/.vimrc.plug
+if filereadable(expand("~/_vimrc.plug"))
+    source ~/_vimrc.plug
 endif
 
 " === THEME (must be AFTER plugins load) ===

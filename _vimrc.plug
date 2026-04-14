@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plug')
+call plug#begin('~/_vim/plug')
 
 " C/C++ support
 Plug 'vim-scripts/c.vim'
