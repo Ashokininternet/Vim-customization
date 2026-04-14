@@ -1,0 +1,16 @@
+call plug#begin('~/.vim/plug')
+
+" C/C++ support
+Plug 'vim-scripts/c.vim'
+
+" Status bar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Colorscheme (matches screenshot)
+Plug 'morhetz/gruvbox'
+
+" Git branch in statusbar
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
