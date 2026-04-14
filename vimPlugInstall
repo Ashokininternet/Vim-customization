@@ -1,2 +1,10 @@
+Inside vim run:
+vim:PlugInstall
+
+Still inside vim:
 :CocInstall coc-clangd
 :CocInstall coc-tsserver
+
+Install clangd for C autocomplete
+In PowerShell:
+winget install LLVM.LLVM
