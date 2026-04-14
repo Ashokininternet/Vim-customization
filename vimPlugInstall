@@ -1,5 +1,5 @@
 Inside vim run:
-vim:PlugInstall
+:PlugInstall
 
 Still inside vim:
 :CocInstall coc-clangd

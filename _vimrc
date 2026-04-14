@@ -29,3 +29,6 @@ let g:airline#extensions#branch#enabled = 1
 let g:airline_theme = 'gruvbox' " Set this LAST
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
+
+"Compile + run instantly C.Use F5
+nnoremap <F5> :!gcc % -o %<.exe && .\%<.exe<CR>
