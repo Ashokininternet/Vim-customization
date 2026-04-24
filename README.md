@@ -14,12 +14,16 @@ This repository provides a custom Vim setup using a `.vimrc` configuration. It e
 
 * Sensible defaults (`nocompatible`, filetype detection)
 * Enhanced search (`ignorecase`, `smartcase`, incremental search)
+* Standardized tab spacing (NASA Standard 2 space tab)
+* Built-in autocomplete for faster coding
+* Clean theme for better readability
 * Improved indentation (`autoindent`, `smartindent`)
 * Cleaner UI (line numbers, status display)
 * Faster navigation through custom key mappings
 * Plugin support via Vim Plug
 
 ---
+
 
 ## Installation
 
@@ -92,16 +96,3 @@ You can edit the config file to suit your workflow:
 * `.vimrc` is used on Unix-based systems, while `_vimrc` is used on Windows due to naming conventions.
 * Plugin installation is required for command-based features to work properly.
 * Ensure Vim is installed before using this configuration.
-
----
-
-## Requirements
-
-* Vim
-* Internet connection (for plugin installation)
-
----
-
-## License
-
-Refer to the repository for license details (if provided).
