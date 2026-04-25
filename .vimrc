@@ -30,7 +30,7 @@ let g:airline#extensions#branch#enabled=1
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 
 "Compile + run instantly C.Use F5
-nnoremap <F5> :!gcc % -o %<.exe && .\%<.exe<CR>
+nnoremap <F5> :!gcc % -o %< && ./%<<CR>
 
 " Custom Tab Space (NASA Standard)
 
